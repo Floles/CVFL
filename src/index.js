@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import { createGlobalStyle } from 'styled-components';
-import image from '../assets/images/stairs.jpg'
+import image from '../assets/images/stairs.jpg';
 
 import App from './components/App';
 
