@@ -1,0 +1,195 @@
+{
+  "basics": {
+    "name": "Florie Lesueur",
+    "label": "Développeur web junior FullStack JS React/Node",
+    "email": "florie.lesueur@gmail.com",
+    "phone": "06 22 20 85 21",
+    "website": "linkedin.com",
+    "summary": "Développeur web fullStack JS depuis plus d'un an, j'ai exercé différents types de métiers : commerciale, chargée de marketing/communication et enfin développeur qui m'ont permis d'acquérir des compétences variées et complémentaires. L'alliance de ces savoirs-faire passés et actuels et de mon savoir-être font de moi un profil atypique. En apprentissage permanent, je continue à vouloir consolider mes acquis et monter en compétences avec la même motivation qu'au début pour exercer ce métier que j’ai toujours voulu faire.",
+    "location": {
+      "postalCode": "75014",
+      "city": "Paris",
+      "countryCode": "France"
+    },
+    "pdf": "flesueur.pdf"
+  },
+  "work": [
+    {
+      "company": "Cercle des Vacances",
+      "current": true,
+      "position": "Développeur web junior FullStack JS React/Node",
+      "startDate": "Juin 2018",
+      "endDate": "",
+      "summary": "Billets Discount, site de réservation en ligne de billets d’avion",
+      "website":"https://www.billetsdiscount/com/ibd",
+      "targets":[
+        "Rendre accessible la vente de billets d’avion 24H/24H et 7J/7",
+        "Diversifier les canaux de commercialisation",
+        "Augmenter le CA"
+      ],
+      "highlights": [
+        "Participation au chiffrage des charges de développement",
+        "Réalisation des développements front et back.",
+        "Rédaction de la documentation technique du projet.",
+        "Debugging.",
+        "ScrumMaster"
+      ],
+      "stacks":[
+        "Langages de programmation : JavaScript, TypeScript, SCSS",
+        "SGBD : MongoDB",
+        "API / Library/ Frameworks : React, Redux, Node, Express, XFT, Mongoose, Pug, Semantic UI.",
+        "DevOps : Docker, Kubernetes, Google Cloud Platform",
+        "IDE : Webstorm",
+        "Outil : Jira",
+        "Gestion des sources : Git"
+      ]
+    },
+    {
+      "company": "Agence de communication .../En Personne",
+      "current": false,
+      "position": "Développeur front end React / Intégrateur HTML (stage)",
+      "startDate": "Février 2018",
+      "endDate": "Mai 2018",
+      "summary": "Refonte du site web de la partie agence de communication",
+      "website":"",
+      "targets":[
+        "Moderniser le site web existant",
+        "Redonner une identité claire"
+      ],
+      "highlights": [
+        "Développement de l’interface utilisateur.",
+        "Réalisation de maquettes front.",
+        "Etablissement d’un cahier des charges",
+        "Intégrations HTML",
+        "Modifications et ajouts de contenus sur sites web existants"
+      ],
+      "stacks":[
+        "Langages de programmation : HTML5, CSS3, JavaScript, React",
+        "API / Library/ Frameworks : API Wordpress",
+        "Outil : Wordpress",
+        "IDE : DreamWeaver"
+      ]
+    },
+    {
+      "company": "Wild Code School",
+      "current": false,
+      "position": "Apprentie Développeur FullStack JS (en formation)",
+      "startDate": "Septembre 2017",
+      "endDate": "Février 2018",
+      "summary": "3 projets dans le cadre de la formation, projet le plus significatif pour un client final : contrôle de vidéos grâce à la reconnaissance vocale",
+      "website":"",
+      "targets":[
+        "Développement d’un premier produit (POC)"
+      ],
+      "highlights": [
+        "Participation au chiffrage des charges de développement.",
+        "Réalisation des développements front et back.",
+        "Debugging.",
+        "Product Owner",
+        "ScrumMaster."
+      ],
+      "stacks":[
+        "Langages de programmation : JavaScript, CSS",
+        "SGBD : MongoDB",
+        "API / Library/ Frameworks : Node, Express, Sequelize, Pug, Semantic UI",
+        "IDE : VS Code",
+        "Outil : Trello",
+        "Gestion des sources : BitBucket"
+      ]
+    },
+    {
+      "company": "Century 21",
+      "current": false,
+      "position": "Conseillère Location / Assistante Commerciale",
+      "startDate": "Mai 2013",
+      "endDate": "Février 2017",
+      "summary": "",
+      "website":"",
+      "targets":[
+        "Développement portefeuille clients (+200%)",
+        "Mise en place du process de commercialisation des biens",
+        "Etablissement des baux de locations",
+        "Etats des lieux E/S",
+        "Gestion des dossiers de transactions"
+      ],
+      "highlights": [],
+      "stacks":[]
+    }
+  ],
+  "education": [
+    {
+        "institution": "Wild Code School",
+        "studyType": "Titre de développeur logiciel (reconnu par l'Etat",
+        "endDate": "2018"
+    },
+    {
+        "institution": "ISEG (pôle alternance)",
+        "studyType": "Master 2 Communication",
+        "endDate": "2009"
+    },
+    {
+         "institution": "Pigier (alternance)",
+        "studyType": "Licence en marketing",
+        "endDate": "2007"
+    },
+    {
+        "institution": "ISEFAC (alternance)",
+        "studyType": "BTS Action Commerciale",
+        "endDate": "2006"
+    }
+  ],
+  "skills": {
+    "hobbies": [
+      "Tennis de Table (loisir et compétition)",
+      "musées et sorties théâtrales",
+      "patrimoine."
+    ],
+    "knowledges": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "ES6",
+      "React",
+      "VueJs (novice)",
+      "Redux",
+      "Node",
+      "Express",
+      "XFT (spécial tourisme basé sur du XML)",
+      "Pug",
+      "Scss",
+      "MongoDB",
+      "Mongoose", 
+      "MySQL",
+      "Semantic UI", 
+      "React Bootstrap",
+      "Git",
+      "WordPress",
+      "REST APIs",
+      "TypeScript",
+      "Docker",
+      "Kubernetes", 
+      "Google Cloud Platform",
+      "Linux",
+      "Mac OS"
+    ],
+    "knowhow": {
+        "scrumMaster":[
+            "Mise en place d’un calendrier pour les rétrospectives",
+            "Gestion des rétrospectives",
+            "Bilan et comptes-rendus des rétrospectives",
+            "Veille aux tenues des daily meetings"
+        ],
+         "commerciale": [
+            "Gestion du client",
+            "Prospection",
+            "Fidélisation",
+            "Gestion de portefeuilles clients"
+        ],
+         "marketing":[
+            "Analyse et prise en compte des besoins du client",
+            "Mise en place de campagnes promotionnelles",
+            "Analyse et optimisation des actions marketing"
+        ]  
+    }
+  }
+}
