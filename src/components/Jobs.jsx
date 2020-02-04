@@ -26,7 +26,7 @@ const Jobs = (props) => {
                         ? (
                             <p className="job__paragraph">
                                 {details.summary}<br/>
-                                <a href={`${details.website}`}>{details.website}</a>
+                                <a href={`${details.website}`} target='_blank' rel="noopener noreferrer">{details.website}</a>
                             </p>
                         ) : null
                 }

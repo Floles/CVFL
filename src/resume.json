@@ -4,7 +4,7 @@
     "label": "Développeur web junior FullStack JS React/Node",
     "email": "florie.lesueur@gmail.com",
     "phone": "06 22 20 85 21",
-    "website": "linkedin.com",
+    "website": "https://www.linkedin.com/in/flesueur/",
     "summary": "Développeur web fullStack JS depuis plus d'un an, j'ai exercé différents types de métiers : commerciale, chargée de marketing/communication et enfin développeur qui m'ont permis d'acquérir des compétences variées et complémentaires. L'alliance de ces savoirs-faire passés et actuels et de mon savoir-être font de moi un profil atypique. En apprentissage permanent, je continue à vouloir consolider mes acquis et monter en compétences avec la même motivation qu'au début pour exercer ce métier que j’ai toujours voulu faire.",
     "location": {
       "postalCode": "75014",
@@ -21,7 +21,7 @@
       "startDate": "Juin 2018",
       "endDate": "",
       "summary": "Billets Discount, site de réservation en ligne de billets d’avion",
-      "website":"https://www.billetsdiscount/com/ibd",
+      "website":"https://www.billetsdiscount.com/ibd",
       "targets":[
         "Rendre accessible la vente de billets d’avion 24H/24H et 7J/7",
         "Diversifier les canaux de commercialisation",
@@ -114,12 +114,28 @@
       ],
       "highlights": [],
       "stacks":[]
+    },{
+      "company": "Epson",
+      "current": false,
+      "position": "Chargée de marketing direct",
+      "startDate": "Septembre 2007",
+      "endDate": "Mars 2011",
+      "summary": "",
+      "website": "",
+      "targets":[
+        "Mise en place et développement des campagnes promotionnelles",
+        "Interface avec les agences de communication",
+        "Optimisation des campagnes",
+        "Développement d’outils d’aide à la vente"
+      ],
+      "highlights": [],
+      "stacks":[]
     }
   ],
   "education": [
     {
         "institution": "Wild Code School",
-        "studyType": "Titre de développeur logiciel (reconnu par l'Etat",
+        "studyType": "Titre de développeur logiciel (reconnu par l'Etat)",
         "endDate": "2018"
     },
     {
@@ -128,7 +144,7 @@
         "endDate": "2009"
     },
     {
-         "institution": "Pigier (alternance)",
+        "institution": "Pigier (alternance)",
         "studyType": "Licence en marketing",
         "endDate": "2007"
     },
@@ -140,13 +156,13 @@
   ],
   "skills": {
     "hobbies": [
-      "Tennis de Table (loisir et compétition)",
-      "musées et sorties théâtrales",
-      "patrimoine."
+      "Tennis de Table",
+      "musées","théâtre",
+      "patrimoine"
     ],
     "knowledges": [
-      "HTML",
-      "CSS",
+      "HTML5",
+      "CSS3",
       "Javascript",
       "ES6",
       "React",

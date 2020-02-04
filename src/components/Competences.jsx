@@ -4,11 +4,13 @@ import Skill from './Skill';
 import { WorkContainer } from './styles';
 
 const Competences = (props) => {
-    
+    console.log("props", props)
     return(
         <WorkContainer>
             <Skill
                 kls={props.skills.knowledges}
+                khs={props.skills.knowhow}
+                hobbies={props.skills.hobbies}
             />
         </WorkContainer>
     );

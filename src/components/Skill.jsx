@@ -1,22 +1,51 @@
 import React from 'react';
-import {JobContainer} from './styles'
+import {JobContainer, Button} from './styles'
 
 const Skill = (props) => {
 
     return(
         <JobContainer>
             <h4>Compétences techniques : </h4>
-            <ul>
+            <div>
                 {
                     props.kls.map((kl, key) => {
                         return (
-                            <li key={key}>
+                            <Button key={key}>
                                 {kl}
-                            </li>
+                            </Button>
                         )
                     })
                 } 
-            </ul>
+            </div>
+            <h4>Compétences fonctionnelles : </h4>
+            <div>
+                {
+                    Object.keys(props.khs).map((kh, key) => {
+                        return(
+                            <>
+                                <p style={{textTransform: 'capitalize'}}><b>{kh} : </b></p>
+                                <ul>
+                                    {
+                                        props.khs[kh].map(k =>(
+                                            <li>{k}</li>
+                                        ))
+                                    }
+                                </ul>
+                            </>
+                        )
+                    })
+                }
+            </div>
+            <h4>Hobbies : </h4>
+            <div>
+                {
+                    props.hobbies.map((hobbie, hkey) => (
+                        <Button key={hkey}>
+                            {hobbie}
+                        </Button>
+                    ))
+                }
+            </div>
         </JobContainer>
     );
 };

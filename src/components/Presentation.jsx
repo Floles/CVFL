@@ -1,11 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
-import moi from '../../assets/images/moi.jpeg'
-import {Container, Image, Identity} from './styles';
+import moi from '../../assets/images/moi.jpeg';
+import {Container, Image, Identity, Title, Span} from './styles';
 
 const Presentation = (props) => {
     
-    const {basics} = props
+    const {basics} = props;
 
     return(
         <Container>
@@ -15,10 +14,14 @@ const Presentation = (props) => {
                     {basics.name}
                 </Identity>       
             </h1>
-            <h2>{basics.label}</h2>
+            <h2><Title>{basics.label}</Title></h2>
             <p>{basics.summary}</p>
-            <p>{basics.phone}</p>
-            <p>{basics.website}</p>
+            <p><Span>Portable :</Span> {basics.phone}</p>
+            <p><Span>Email :</Span> {basics.email}</p>
+            <p>
+                Mon profil&nbsp;
+                <a href={basics.website} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
             <p>{basics.location.postalCode} {basics.location.city} {basics.location.countryCode}</p>
         </Container>
     );

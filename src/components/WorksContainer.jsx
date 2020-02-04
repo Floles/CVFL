@@ -3,16 +3,14 @@ import React from 'react';
 import { WorkContainer } from './styles';
 import Jobs from './Jobs';
 
-
-
 const WorksContainer = (props) => {
     
-    const {jobs} = props
+    const {jobs} = props;
 
     return(
         <WorkContainer>
             {
-                props.jobs.map((job, key) => {
+                jobs.map((job, key) => {
                     
                     return (
                         <Jobs
