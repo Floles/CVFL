@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, NavLink } from 'react-router-dom';
+import { HashRouter, Route, NavLink } from 'react-router-dom';
 import Layout from './Layout';
 import Presentation from './Presentation';
 import WorksContainer from './WorksContainer';
@@ -13,7 +13,7 @@ const App = (props) => {
     // console.log("resume", resume)
     
     return(
-        <BrowserRouter>
+        <HashRouter>
             <nav className="nav">
                 <NavLink exact to="."><Button primary>Home</Button></NavLink>
                 <NavLink to="jobs"><Button primary>Jobs</Button></NavLink>
@@ -37,7 +37,7 @@ const App = (props) => {
                     render={() => <Formations education={resume.education} />}
                 />
             </Layout>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 
