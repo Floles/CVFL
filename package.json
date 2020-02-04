@@ -1,10 +1,12 @@
 {
   "name": "cvreact",
+  "homepage": "https://floles.github.io/CVFL",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --open",
+    "deploy": "gh-pages -d build",
     "build": "NODE_ENV=production webpack --progress",
     "lint": "eslint ./src/**/**.js --fix"
   },
@@ -42,6 +44,7 @@
     "eslint-plugin-react": "^7.18.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "^5.0.2",
+    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^3.2.0",
     "img-loader": "^3.0.1",
     "node-sass": "^4.13.1",
