@@ -15,7 +15,7 @@ const App = (props) => {
     return(
         <HashRouter>
             <nav className="nav">
-                <NavLink exact to="."><Button primary>Home</Button></NavLink>
+                <NavLink exact to="/CVFL"><Button primary>Home</Button></NavLink>
                 <NavLink to="jobs"><Button primary>Jobs</Button></NavLink>
                 <NavLink to="skills"><Button primary>Compétences</Button></NavLink>
                 <NavLink to="education"><Button primary>Formations</Button></NavLink>
