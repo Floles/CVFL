@@ -4,7 +4,7 @@ import Skill from './Skill';
 import { WorkContainer } from './styles';
 
 const Competences = (props) => {
-    console.log("props", props)
+    
     return(
         <WorkContainer>
             <Skill

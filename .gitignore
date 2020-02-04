@@ -88,10 +88,6 @@ typings/
 # vuepress build output
 .vuepress/dist
 
-# webpack build output
-build/*
-
-
 # Serverless directories
 .serverless/
 
