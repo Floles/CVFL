@@ -7,8 +7,8 @@
     "website": "https://www.linkedin.com/in/flesueur/",
     "summary": "Développeur web fullStack JS depuis plus d'un an, j'ai exercé différents types de métiers : commerciale, chargée de marketing/communication et enfin développeur qui m'ont permis d'acquérir des compétences variées et complémentaires. L'alliance de ces savoirs-faire passés et actuels et de mon savoir-être font de moi un profil atypique. En apprentissage permanent, je continue à vouloir consolider mes acquis et monter en compétences avec la même motivation qu'au début pour exercer ce métier que j’ai toujours voulu faire.",
     "location": {
-      "postalCode": "75014",
-      "city": "Paris",
+      "postalCode": "69150",
+      "city": "Décines Charpieu",
       "countryCode": "France"
     },
     "pdf": "flesueur.pdf"
@@ -16,10 +16,10 @@
   "work": [
     {
       "company": "Cercle des Vacances",
-      "current": true,
+      "current": false,
       "position": "Développeur web junior FullStack JS React/Node",
       "startDate": "Juin 2018",
-      "endDate": "",
+      "endDate": "Mai 2020",
       "summary": "Billets Discount, site de réservation en ligne de billets d’avion",
       "website":"https://www.billetsdiscount.com/ibd",
       "targets":[
@@ -29,19 +29,19 @@
       ],
       "highlights": [
         "Participation au chiffrage des charges de développement",
-        "Réalisation des développements front et back.",
-        "Rédaction de la documentation technique du projet.",
-        "Debugging.",
+        "Développement des features front et back",
+        "Rédaction de documentation technique du projet",
+        "Debugging",
         "ScrumMaster"
       ],
       "stacks":[
         "Langages de programmation : JavaScript, TypeScript, SCSS",
         "SGBD : MongoDB",
-        "API / Library/ Frameworks : React, Redux, Node, Express, XFT, Mongoose, Pug, Semantic UI.",
+        "API / Library/ Frameworks : React, Redux, Node, Express, XFT, Mongoose, Pug, Semantic UI",
         "DevOps : Docker, Kubernetes, Google Cloud Platform",
         "IDE : Webstorm",
         "Outil : Jira",
-        "Gestion des sources : Git"
+        "Gestion des sources : Git, GitLab"
       ]
     },
     {

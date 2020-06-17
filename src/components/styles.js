@@ -5,12 +5,20 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    position: absolute;
+`;
+
+export const ResponsiveWrapper = styled.div`
+    display: block;
 `;
 
 export const Container = styled.div`
     width: 45%;
     padding: 2vw 4vw;
+`;
+
+export const ResponsiveContainer = styled.div`
+    width: 100%;
+    padding: 1vw;
 `;
 
 export const Image = styled.img`
@@ -27,21 +35,18 @@ export const Title = styled.div`
 `;
 
 export const WorkContainer = styled.div`
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
-`;
-
-export const JobContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     flex: 1;
-    width: 65%;
     padding-left: 10vh;
+    width: 65%;
+`;
+
+export const ResponsiveWorkContainer = styled.div`
+    width: 100%;
+    padding-left: 1vh;
 `;
 
 export const Button = styled.button`

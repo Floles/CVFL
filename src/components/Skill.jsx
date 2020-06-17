@@ -1,11 +1,11 @@
 import React from 'react';
-import {JobContainer, Button} from './styles'
+import {Button} from './styles'
 
 const Skill = (props) => {
 
     return(
-        <JobContainer>
-            <h4>Compétences techniques : </h4>
+        <>
+            <h4>Competences techniques : </h4>
             <div>
                 {
                     props.kls.map((kl, key) => {
@@ -17,7 +17,7 @@ const Skill = (props) => {
                     })
                 } 
             </div>
-            <h4>Compétences fonctionnelles : </h4>
+            <h4>Competences fonctionnelles : </h4>
             <div>
                 {
                     Object.keys(props.khs).map((kh, key) => {
@@ -46,7 +46,7 @@ const Skill = (props) => {
                     ))
                 }
             </div>
-        </JobContainer>
+        </>
     );
 };
 

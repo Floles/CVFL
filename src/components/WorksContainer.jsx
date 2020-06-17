@@ -1,26 +1,37 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
-import { WorkContainer } from './styles';
+import { WorkContainer, ResponsiveWorkContainer } from './styles';
 import Jobs from './Jobs';
 
 const WorksContainer = (props) => {
     
-    const {jobs} = props;
+    const {jobs, width} = props;
+    const work = (
+        jobs.map((job, key) => {
+                    
+            return (
+                <>
+                    <Jobs
+                        key={key}
+                        details={job}
+                    />
+                </>
+            );
+        })
+    );
 
     return(
-        <WorkContainer>
-            {
-                jobs.map((job, key) => {
-                    
-                    return (
-                        <Jobs
-                            key={key}
-                            details={job}
-                        />
-                    )
-                })
-            }
-        </WorkContainer>
+        width > 1024
+            ? (
+                <WorkContainer>
+                    {work}
+                </WorkContainer>
+            ) : (
+                <ResponsiveWorkContainer>
+                    {work}
+                </ResponsiveWorkContainer>
+            )
+        
     );
 };
 

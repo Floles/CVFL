@@ -1,26 +1,38 @@
 import React from 'react';
-import { WorkContainer, JobContainer, Span } from './styles';
+import { WorkContainer, Span, ResponsiveWorkContainer } from './styles';
 
 const Education = (props) => {
     
-    const {education} = props;
+    const {education, width} = props;
+    const educ = (
+        <>
+            
+            {
+                education.map((edu, key) => {
+                    return (
+                        <div key={key}>
+                            <p><Span>Ecole :</Span> {edu.institution}</p>
+                            <p><Span>Diplome :</Span> {edu.studyType}</p>
+                            <p><Span>Obtention :</Span> {edu.endDate}</p>
+                        </div>
+                    );
+                })
+            }
+            
+        </>
+    );
 
     return(
-        <WorkContainer>
-            <JobContainer>
-                {
-                    education.map((edu, key) => {
-                        return (
-                            <div key={key}>
-                                <p><Span>Ecole :</Span> {edu.institution}</p>
-                                <p><Span>Diplôme :</Span> {edu.studyType}</p>
-                                <p><Span>Date d'obtention :</Span> {edu.endDate}</p>
-                            </div>
-                        );
-                    })
-                }
-            </JobContainer>
-        </WorkContainer>
+        width > 1024
+            ? (
+                <WorkContainer>
+                    {educ}
+                </WorkContainer>
+            ) : (
+                <ResponsiveWorkContainer>
+                    {educ}
+                </ResponsiveWorkContainer>
+            )
     );
 };
 

@@ -1,13 +1,21 @@
 import React from 'react';
-import {Wrapper} from './styles';
+import {Wrapper, ResponsiveWrapper} from './styles';
 
 
 const Layout = (props) => {
-
+    
     return(
-        <Wrapper className={Wrapper}>
-            {props.children} 
-        </Wrapper>
+        props.width > 1024
+            ? (
+                <Wrapper>
+                    {props.children} 
+                </Wrapper>
+            ) : (
+                <ResponsiveWrapper>
+                    {props.children}
+                </ResponsiveWrapper>
+            )
+        
     );
 };
 
